@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: laravel-app
+    env: docker
+    plan: free
+    envVars:
+      - key: SUPABASE_URL
+        value: https://your-project-id.supabase.co
+      - key: SUPABASE_BUCKET
+        value: product-images
+      - key: SUPABASE_SERVICE_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhseXh5YWpsb2J3cHd2eWt4ZXBnIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MzE5NDAwOSwiZXhwIjoyMDY4NzcwMDA5fQ.-7Kftd6JRN3AoL5JBx-Hd-IlhG_EXtnRe7OTDWs7hvc
